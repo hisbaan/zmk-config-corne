@@ -87,10 +87,10 @@
         gaming_layer {
             label = "Gaming";
             bindings = <
-   &trans    &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &kp ESC
-   &kp LCTRL &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
-   &trans    &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
-                           &trans &trans &trans      &trans &trans &trans
+   &trans    &trans &trans &trans   &trans &trans      &trans &trans &trans &trans &trans &kp ESC
+   &kp LCTRL &trans &trans &trans   &trans &trans      &trans &trans &trans &trans &trans &trans
+   &trans    &trans &trans &trans   &trans &trans      &trans &trans &trans &trans &trans &trans
+                           &kp LALT &trans &trans      &trans &trans &trans
             >;
         };
 
